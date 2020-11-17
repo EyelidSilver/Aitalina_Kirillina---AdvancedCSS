@@ -1,0 +1,109 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #c3cfe2;
+  overflow-x: hidden;
+}
+
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.icons a {
+  position: absolute;
+  right: -170px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 15px 16px;
+  width: 190px;
+  font-size: 15px;
+  color: white;
+  text-align: end;
+  font-family: "Roboto", sans-serif;
+}
+
+.icons a:hover {
+  right: 0px;
+}
+
+.icons__blog {
+  bottom: 296px;
+  background-color: #e17b77;
+}
+
+.icons__blog::before {
+  content: "\f5fc";
+  font-family: FontAwesome;
+  display: inline-block;
+  padding-right: 46px;
+  font-size: 16px;
+}
+
+.icons__twitter {
+  bottom: 248px;
+  background-color: #3b5998;
+  background-color: #00aced;
+}
+
+.icons__twitter::before {
+  content: "\f099";
+  font-family: FontAwesome;
+  display: inline-block;
+  padding-right: 35px;
+  font-size: 16px;
+}
+
+.icons__linkedin {
+  bottom: 200px;
+  background-color: #007bb6;
+}
+
+.icons__linkedin::before {
+  content: "\f0e1";
+  font-family: FontAwesome;
+  display: inline-block;
+  padding-right: 38px;
+  font-size: 16px;
+}
+
+.icons__facebook {
+  bottom: 152px;
+  background-color: #3b5998;
+}
+
+.icons__facebook::before {
+  content: "\f39e";
+  font-family: FontAwesome;
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 16px;
+}
+
+.icons__github {
+  bottom: 104px;
+  background-color: #333;
+}
+
+.icons__github::before {
+  content: "\f09b";
+  font-family: FontAwesome;
+  display: inline-block;
+  padding-right: 22px;
+  font-size: 16px;
+}
+/*# sourceMappingURL=styles.css.map */

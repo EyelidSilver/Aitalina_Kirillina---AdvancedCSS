@@ -1,0 +1,60 @@
+@import "_constants.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #c3cfe2;
+  overflow-x: hidden;
+}
+.card {
+  font-family: $card-font;
+  font-weight: 500;
+  line-height: 1.8;
+  font-size: 16px;
+  margin: 50px;
+  width: 380px;
+  background: $card-background-color;
+  border-radius: 5%;
+  box-shadow: 2px 6px 15px 4px #00000048;
+  &__text {
+    padding: 35px;
+    color: #444f5f;
+  }
+  &__img {
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    border-radius: 50%;
+    width: 110px;
+    border: $card-background-color 5px solid;
+    position: absolute;
+    z-index: 2;
+  }
+  &__footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #686de0;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    height: 140px;
+    width: 380px;
+    justify-content: flex-end;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    a {
+      text-decoration: none;
+      color: #a8acf8;
+      font-size: 18px;
+    }
+  }
+  &__name {
+    font-size: 25px;
+    color: $card-background-color;
+    font-weight: 300;
+    line-height: 1.4;
+  }
+}

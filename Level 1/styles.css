@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #c3cfe2;
+  overflow-x: hidden;
+}
+
+.card {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 500;
+  line-height: 1.8;
+  font-size: 16px;
+  margin: 50px;
+  width: 380px;
+  background: #fff;
+  border-radius: 5%;
+  -webkit-box-shadow: 2px 6px 15px 4px #00000048;
+          box-shadow: 2px 6px 15px 4px #00000048;
+}
+
+.card__text {
+  padding: 35px;
+  color: #444f5f;
+}
+
+.card__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.card img {
+  border-radius: 50%;
+  width: 110px;
+  border: #fff 5px solid;
+  position: absolute;
+  z-index: 2;
+}
+
+.card__footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  background: #686de0;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  height: 140px;
+  width: 380px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.card__footer a {
+  text-decoration: none;
+  color: #a8acf8;
+  font-size: 18px;
+}
+
+.card__name {
+  font-size: 25px;
+  color: #fff;
+  font-weight: 300;
+  line-height: 1.4;
+}
+/*# sourceMappingURL=styles.css.map */
